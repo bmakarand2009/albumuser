@@ -1,0 +1,8 @@
+installs the zip from myalbum plugin
+Note; This is not working with the template present in the mylabum plugin.
+
+I have tried various approaches to get this plugin work but it does not, here are the approaches
+
+   <g:render template="album/tracks" model="[theTracksToRender:album.tracks]" plugin="myalbum"/> 
+
+   <g:render template="album/tracks" model="[theTracksToRender:album.tracks]" contextPath="${pluginContextPath}"/> 
